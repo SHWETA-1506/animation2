@@ -1,0 +1,47 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+}
+.div2{
+    height: 150px;
+    width: 150px;
+    border-radius: 40px;
+    background-color: cadetblue;
+    position: absolute;
+    border: 40px;
+    animation-name: me;
+    animation-delay: 2s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes me{
+    0%{
+        left: 0;
+        top:0;
+    }
+    20%{
+        left:300px;
+        top:0px;
+    }
+    40%{
+        left:300px;
+        top:300px;
+        background-color: cornflowerblue;
+    }
+    60%{
+        left:600px;
+        top:300px;
+        background-color: crimson;
+    }
+    80%{
+        left:600px;
+        top:600px;
+        background-color: darkslategray;
+    }
+    100%{
+        left:900px;
+        top:600px;
+        background-color: hotpink;
+    }
+}
